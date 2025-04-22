@@ -1,25 +1,60 @@
-[data-testid='metric-container'] {
+.st-emotion-cache-1104ytp h3 {
+  padding: 0;
+}
+
+.st-emotion-cache-1104ytp {
+  margin-bottom: 0;
+}
+
+.st-emotion-cache-89jlt8 p {
+  font-weight: 600;
+}
+
+.st-emotion-cache-89jlt8 e121c1cl0 {
+  font-weight: 0;
+}
+
+.st-emotion-cache-1h9usn1 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(128 132 149 / 40%);
+  border-radius: 0.5rem;
+  background-color: #f0f2f6;
+}
+
+/* .st-emotion-cache-ue6h4q {
+  visibility: hidden;
+} */
+
+.st-emotion-cache-89jlt8 {
+  font-size: 15px;
+}
+
+.st-aw,
+.st-av,
+.st-au,
+.st-at {
+  border-radius: 2rem;
+}
+
+/* [data-testid='metric-container'] {
   box-shadow: 0 0 4px #686664;
   padding: 10px;
-}
-
-.st-emotion-cache-yw8pof {
-  width: 100%;
-  padding: 5rem;
-  padding-top: 3rem;
-  max-width: 100%;
-}
-
+} */
+/* 
 .st-emotion-cache-p38tq {
   font-size: 2.5rem;
   color: rgb(49, 51, 63);
   padding-bottom: 1rem;
   text-align: center;
-}
+} */
 
-.plot-container > div {
+/* .plot-container > div {
   box-shadow: 0 0 2px #070505;
-  padding: 0px;
+  padding: 0;
   border-color: #000000;
 }
 
@@ -36,4 +71,4 @@ div[data-testid='stExpander'] div[role='button'] p {
 
 [data-testid='stSidebar'] {
   color: white;
-}
+} */
