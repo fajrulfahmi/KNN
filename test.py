@@ -28,10 +28,14 @@ st.markdown(
 
 # ------------------------ Koneksi ke Database ------------------------
 def get_connection():
+    mysql_config = st.secrets["mysql"]
     return mysql.connector.connect(
-        host="localhost", user="root", password="root", database="mydb"
+        host=mysql_config["host"],
+        port=mysql_config["port"],
+        user=mysql_config["user"],
+        password=mysql_config["password"],
+        database=mysql_config["database"]
     )
-
 
 # ------------------------ Cek Login ------------------------
 def check_login(username, password):
